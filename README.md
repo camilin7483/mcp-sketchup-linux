@@ -57,7 +57,7 @@ Para una instalación en otra ruta, configura `WINEPREFIX` o `SKETCHUP_EXE`. El 
 
 El SDK publica 12 herramientas. La simulación conserva sus datos en `~/.cache/sketchup-mcp` por defecto. `SKETCHUP_MCP_CACHE` permite usar otra carpeta y `SKETCHUP_MCP_HOST` / `SKETCHUP_MCP_PORT` configuran la conexión del servidor. Para el puente incluido, conserva la dirección local. El puente admite ejecución de Ruby dentro de SketchUp y está diseñado para clientes de confianza en el mismo equipo.
 
-En Linux se comprobó el servidor por stdio y el flujo simulado. SketchUp Make 2017 abrió la pantalla de bienvenida con Wine. La conexión con una escena abierta sigue pendiente de verificación. SketchUp Web carece de conexión con esta extensión de escritorio.
+En Linux se comprobaron las 12 herramientas registradas y el flujo simulado desde el SDK MCP por stdio. OpenCode 2.2.5 guardó la configuración y su activación quedó pendiente en la prueba aislada. SketchUp Make 2017 abrió la pantalla de bienvenida con Wine. Falta probar el puente con una escena abierta. SketchUp Web carece de conexión con esta extensión de escritorio.
 
 El protocolo incorpora compatibilidad con [mhyrr/sketchup-mcp](https://github.com/mhyrr/sketchup-mcp) y [Shattenjagger/sketchup-mcp-bridge](https://github.com/Shattenjagger/sketchup-mcp-bridge). Consulta el [historial de cambios](CHANGELOG.md).
 
